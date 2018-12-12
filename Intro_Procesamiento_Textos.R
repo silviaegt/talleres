@@ -206,7 +206,7 @@ metadatos <- read_csv("metadatos_presidentes.csv")
 # Paso 2. Especifica en qué carpeta está tu corpus
 # OJO: fíjate que las diagonales estén en la dirección correcta,
 #si lo copias y pegas de Windows estarán al revés
-input_loc <- "C:/Users/segutierrez/Dropbox/RLadiesCDMX_talleres/textos"
+input_loc <- "C:/Users/JuanaLaCubana/Documents/RLadiesCDMX_talleres/textos"
 
 #Paso 3. Para leer y guardar todos los .txt en la variable "texto"
 # corre el siguiente bloque de código:
