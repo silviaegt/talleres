@@ -21,7 +21,7 @@
 #TIP: Recuerden que si la codificación no es correcta tienen que ir a File - Reopen with Encoding 
 #y seleccionar UTF-8
 # 1.2 Establecer el directorio de trabajo (donde estén tus datos)
-setwd("C:/Users/segutierrez/Dropbox/RLadiesCDMX_talleres")
+setwd("C:/Users/JuanaLaCubana/Documents/RLadiesCDMX_talleres")
 
 ###### PASO 2 #####
 # instalar paquetes #
