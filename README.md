@@ -1,5 +1,5 @@
 # RLadiesCDMX_talleres
-Éste es un repositorio con los materiales y el código para los talleres que daré en RLadiesCDMX.
+Éste es un repositorio con los materiales y el código para los talleres que he dado en RLadiesCDMX.
 
 1) [Procesamiento Básico de Textos en R](https://github.com/silviaegt/RLadiesCDMX_talleres/tree/master/analisis_textos) :)
 Si vas a usar este código o el corpus en él por favor cítalo usando el siguiente identificador:
