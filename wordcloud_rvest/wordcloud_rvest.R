@@ -11,9 +11,10 @@ library(rvest)
 library(wordcloud2)
 library(tokenizers)
 
-#### Obtener direccción de trabajo ####
+#### Obtener direccción de trabajo y cambiarla (o crear proyecto R)####
 getwd()
-#setwd("C:/Users/andy_/Documents/CURSOS_ACTS/R/reto_rladies")
+#setwd("C:/Users/etc")
+
 
 #### Leer lista de URLs con letras de villancicos  ####
 #tomados de http://www.navidaddigital.com/villancicos/
