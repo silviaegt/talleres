@@ -9,7 +9,7 @@ library(htmltools)
 library(geojsonio)
 
 
-#En estas líneas metemos lat, long, y fecha de inicio, fecha de fin
+#En estas líneas creamos un dataframe lat, long, y fecha de inicio, fecha de fin (sólo para que vean cómo funciona)
 
 power <- data.frame(
     "Latitude" = c(
