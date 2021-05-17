@@ -25,7 +25,7 @@ Aprende a hacer “lectura distante” (ganar una vista de pájaro sobre muchos 
 
 ## Sobre la tallerista
 
-Silvia Gutiérrez De la Torre estudió la maestría de Humanidades Digitales en la Universidad de Wurzburgo y en el King’s College de Londres. Es co-fundadora de RLadiesCDMX y voluntaria de Wikipedia y Wikidata porque quiere pensar que compartir es el verbo que sustituirá a tener. Durante cinco años trabajó como la primera Bibliotecaria de Humanidades Digitales en El Colegio de México donde impartió diversos talleres sobre el uso de herramientas y la aplicación de métodos computacionales para las Humanidades y Ciencias Sociales. Actualmente está por comenzar su doctorado en la Universidad de Leipzig y el Max Planck para la Historia de la Ciencia.
+[Silvia Gutiérrez](https://twitter.com/espejolento) estudió la maestría de Humanidades Digitales en la Universidad de Wurzburgo y en el King’s College de Londres. Es co-fundadora de RLadiesCDMX y voluntaria de Wikipedia y Wikidata porque quiere pensar que compartir es el verbo que sustituirá a tener. Durante cinco años trabajó como la primera Bibliotecaria de Humanidades Digitales en El Colegio de México donde impartió diversos talleres sobre el uso de herramientas y la aplicación de métodos computacionales para las Humanidades y Ciencias Sociales. Actualmente está por comenzar su doctorado en la Universidad de Leipzig y el Max Planck para la Historia de la Ciencia.
 
 ## Vínculos importantes
 
@@ -44,9 +44,11 @@ Silvia Gutiérrez De la Torre estudió la maestría de Humanidades Digitales en 
 
 ### Corpus
 
-Para esta lección podrás usar una colección de textos que fue "parseada" a partir de una publicación compartida con licencia CC BY 4.0:
+Para esta lección podrás usar:
 
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.4586947.svg)](https://doi.org/10.5281/zenodo.4586947)
+1. El programa de LASA2021
+2. Una lista de los programas de un track: Literary Studies
+3. Una colección de textos que fue "parseada" a partir de una publicación compartida con licencia CC BY 4.0: [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.4586947.svg)](https://doi.org/10.5281/zenodo.4586947)
 
 
 ### Materiales de apoyo
