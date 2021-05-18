@@ -9,7 +9,7 @@ Aprende a hacer “lectura distante” (ganar una vista de pájaro sobre muchos 
 
 ## 2. Tallerista
 
-[Silvia Gutiérrez](https://twitter.com/espejolento) estudió la maestría de Humanidades Digitales en la Universidad de Wurzburgo y en el King’s College de Londres. Es co-fundadora de RLadiesCDMX y voluntaria de Wikipedia y Wikidata porque quiere pensar que compartir es el verbo que sustituirá a tener. Durante cinco años trabajó como la primera Bibliotecaria de Humanidades Digitales en El Colegio de México donde impartió diversos talleres sobre el uso de herramientas y la aplicación de métodos computacionales para las Humanidades y Ciencias Sociales. Actualmente está por comenzar su doctorado en la Universidad de Leipzig y el Max Planck para la Historia de la Ciencia.
+[Silvia Gutiérrez](https://twitter.com/espejolento) estudió la maestría de Humanidades Digitales en la Universidad de Wurzburgo y en el King’s College de Londres. Es co-fundadora de RLadiesCDMX y voluntaria de Wikipedia y Wikidata porque quiere pensar que compartir es el verbo que sustituirá a tener. Durante cinco años trabajó como la primera Bibliotecaria de Humanidades Digitales en El Colegio de México donde impartió diversos talleres sobre el uso de herramientas y la aplicación de métodos computacionales para las Humanidades y Ciencias Sociales. Actualmente [hace su doctorado en el grupo de Humanidades Computacionales de la Universidad de Leipzig](https://ch.uni-leipzig.de/team/) y el [Max Planck para la Historia de la Ciencia](https://www.mpiwg-berlin.mpg.de/).
 
 ## 3. Vínculos importantes
 
