@@ -31,7 +31,7 @@ Aprende a hacer “lectura distante” (ganar una vista de pájaro sobre muchos 
 Para esta lección podrás usar:
 
 1. [El programa de LASA2021](https://lasaweb.org/uploads/program-index-lasa2021-v1-updated-may-25.pdf)
-2. [Una lista de los programas de un track: Literary Studies](https://github.com/silviaegt/talleres/blob/master/voyant/data/lasa2021_litstudies.csv)
+2. [Una lista de los programas de un track: Literary Studies](https://github.com/silviaegt/talleres/blob/master/voyant/data/lasa2021_litstudies.csv) | [Fuente](https://eventpilotadmin.com/web/page.php?page=Sessions&project=LASA21&id=2021-05-26&filterUrn=urn%3Aeventpilot%3Aall%3Aagenda%3Afilter%3Acategoryid%3DLiterature+Studies)
 3. Una colección de textos que fue "parseada" a partir de una publicación compartida con licencia CC BY 4.0: [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.4586947.svg)](https://doi.org/10.5281/zenodo.4586947)
 
 
