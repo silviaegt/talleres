@@ -34,6 +34,6 @@ For this workshop we will use
 1. [Angela Merkel's Wikipedia article](https://lasaweb.org/uploads/program-index-lasa2021-v1-updated-may-25.pdf)
 * Backup: pre-loaded [AM's en-Wiki-intro](https://voyant-tools.org/?corpus=80ae3e1bb529830cf936536c62f1639c) ;  [AM's es-Wiki-intro](https://voyant-tools.org/?corpus=e17861005fe564ac401da705a9931e31)
 2. "The Remembered - A Global Study of Literature Dissertations' Bibliography" [a pdf](https://zenodo.org/record/6328005#.YoZciXVBxH5)
-3. A State of the Union Address Text Corpus from C-Span: [Great Depression and World War II, 1929-1945](https://github.com/silviaegt/talleres/tree/master/voyant_en/data/depression) & [The Post War United States, 1945-1968](https://github.com/silviaegt/talleres/tree/master/voyant_en/data/post_war) | [source](http://www.c-span.org/executive/stateoftheunion.asp) - Credit goes to Kathleen Ahrens for compiling this corpus from the Cable-Satellite Public Affairs Network (C-Span) website.
+3. A State of the Union Address Text Corpus from C-Span: [Great Depression and World War II, 1929-1945](https://github.com/silviaegt/talleres/tree/master/voyant_en/data/depression) & [The Post War United States, 1945-1968](https://github.com/silviaegt/talleres/tree/master/voyant_en/data/post_war) | [source](http://www.c-span.org/executive/stateoftheunion.asp) - Credit goes to Kathleen Ahrens for compiling this corpus from the Cable-Satellite Public Affairs Network (C-Span) website. [Download link](https://drive.google.com/file/d/1wcf1paBiXwTeF2BvOS-bmZL1FWEnb1Qb/view?usp=sharing)
 
 
