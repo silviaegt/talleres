@@ -12,6 +12,7 @@ library(pdftools)
 library(stringr)
 library(readr)
 library(tesseract)
+library(tidyverse)
 
 
 #How to cite:
@@ -68,3 +69,12 @@ chinese <- pdftools::pdf_ocr_text("Example.pdf", lang="chi_tra_vert") #OCR is ap
 cat(chinese[1])
 readr::write_lines(chinese, "chinese.txt") #with the function write_lines we can create a plain text document with the text extracted with OCR
 write(chinese, "chinese2.txt")
+
+############# Example 3: JPG (scanned) #################
+
+tesseract::tesseract_download("ara")
+arabic <- tesseract::tesseract("ara")
+img  <- "arabic.JPG"
+tesseract::ocr(img, arabic) %>% 
+  str_split("\n")
+
