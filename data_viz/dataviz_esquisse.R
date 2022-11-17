@@ -17,14 +17,17 @@ library(readr)
 library(tidyverse)
 library(forcats) #more on: https://forcats.tidyverse.org/articles/forcats.html
 library(ggplot2)
+
 #cheatsheets: 
 # 1) https://bookdown.org/tpemartin/minicourse_ggplot2/img/ggplot2.pdf
 # 2) https://www.maths.usyd.edu.au/u/UG/SM/STAT3022/r/current/Misc/data-visualization-2.1.pdf
 # 1) https://res.cloudinary.com/dyd911kmh/image/upload/v1666806657/Marketing/Blog/ggplot2_cheat_sheet.pdf
 
 #----Load data ----
-wine <- read_csv("wine.csv") #smaller (16.3 MG instead of 50) version of kaggle file without id, region_1, region_2, & description columns & only top 10 countries by data lines
-#wine <- read_csv("https://raw.githubusercontent.com/rubyhsing/kaggle_files/main/winemag-data-130k-v2.csv")
+wine <- read_csv("wine.csv") #smaller (9 MG instead of 50) version of kaggle file without id, region_1, region_2, and description columns 
+
+#another option to load data:
+#wine <- read_csv("https://raw.githubusercontent.com/silviaegt/talleres/master/data_viz/wine.csv")
 #More about this data: https://www.kaggle.com/datasets/zynicide/wine-reviews
 
 #----Explore data ----
@@ -36,7 +39,7 @@ summary(wine)
 esquisse::esquisser(wine)
 
 
-#----Visualize one variable ----
+#----Visualize one categorical variable ----
 # some notes: why are some variables in blue and others in orange ?
 # 1. drag country to facet - what are we looking at?
 # 2. labs and title -> add text to each parameter, what happens?
@@ -58,33 +61,39 @@ ggplot(wine) +#first we give ggplot our data
        title = "Number of wine tests by country", subtitle = "Data from kaggle", caption = "link to data") +
   theme_minimal()
 
+
+#----Visualize one numerical variable ----
+# 1. drag price to facet - what are we looking at?
+# 2. plot options -> change number of bins
+# 3. plot options -> change x axis limit
+# 4. do the same for points
+# Q - what are the most common wine prices?
+
 #----Visualize two variables ----
 
 # 1. drag country to fill & price to x - what are we looking at?
-# 2. data -> select only wines under 200 USD
+# remember you know the most common wine prices and points!
+# 2. data -> select only wines under 50 US (data) and more than >90 points (plot options)
 # 3. appearance -> change color of one variable (US for instance)
-# 5. data -> delete australia
-# 6. code -> insert code
+#4. drag country to facet
+
+ 
+# Q - which testers have tasted the most expensive wines?
+# Q - which testers gives the worst reviews?
+
+# 1. drag country
 #boxplot: https://visualizationcheatsheets.github.io/boxplot.html
 
 
 #----Customize filtered data ----
 
-price_by_country <- wine %>% 
-  group_by(country) %>% 
-  count(price)
+wine %>% 
+  filter(price < 50 & points > 94) %>% 
+  count(country, sort = T)
 
-esquisse::esquisser(price_by_country)
+price_value_eu <- wine %>% 
+  filter(price < 50 & points > 94 & country == c("France", "Austria", "Italy"))
 
+esquisse::esquisser(price_value_eu)
 
-chile %>%
-  filter(puntos > 90 & precio_mxn < 5000) %>%
-  ggplot() +
-  geom_boxplot(aes(provincia, precio_mxn, fill = provincia)) +
-  theme(legend.position = "none") +
-  labs(title = "Vinos", subtitle = "Precio y calidad")
-
-
-
-
-esquisser(pirates)
+#check varieties
