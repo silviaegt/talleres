@@ -4,6 +4,7 @@
 # Author: Silvia Gutiérrez (@espejolento)
 # Notes: We'll use the wine data from Miércoles de datos
 # Data about package: https://cran.r-project.org/web/packages/esquisse/vignettes/get-started.html
+# Where to ask questions about esquisse: https://stackoverflow.com/search?q=esquisse
 
 #----Install packages ----
 #install.packages("esquisse")
