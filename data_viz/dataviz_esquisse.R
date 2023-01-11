@@ -12,6 +12,8 @@
 #install.packages("readr")
 #install.packages("ggplot2")
 #install.packages("forcats")
+#install.packages("tidyverse")
+
 #----Load packages ----
 library(esquisse)
 library(tidyr)
@@ -43,7 +45,7 @@ esquisse::esquisser(wine)
 
 #----Visualize one categorical variable ----
 # some notes: why are some variables in blue and others in orange ?
-# 1. drag country to facet - what are we looking at?
+# 1. drag country to X - what are we looking at?
 # 2. labs and title -> add text to each parameter, what happens?
 # 3. plot options -> flip coordinate 
 # 4. appearance -> change theme
